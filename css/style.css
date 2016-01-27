@@ -1,25 +1,31 @@
 div div{
 	width: 25%;
 	height: 100px;
-	float: left;
+	float: right;
 }
 
 .bbox {
 	width: 800px;
 	margin-top: 20px;
-	border: 1px solid black;
+	border: 1px solid #6A0888;
+	border-style: solid;
+	border-width: 8px 9px 7px 7px;
+	-moz-border-image: url(http://2.bp.blogspot.com/-dKd3Islrc2c/VZsjl2leIXI/AAAAAAAADOU/T9wcBxw8cpE/s1600/ILUSIOtumblr_ldjxv9x4rr1qzt4vjo1_r2_500.gif) 8 9 7 7 repeat;
+	-webkit-border-image: url(http://2.bp.blogspot.com/-dKd3Islrc2c/VZsjl2leIXI/AAAAAAAADOU/T9wcBxw8cpE/s1600/ILUSIOtumblr_ldjxv9x4rr1qzt4vjo1_r2_500.gif) 8 9 7 7 repeat;
+	-o-border-image: url(http://2.bp.blogspot.com/-dKd3Islrc2c/VZsjl2leIXI/AAAAAAAADOU/T9wcBxw8cpE/s1600/ILUSIOtumblr_ldjxv9x4rr1qzt4vjo1_r2_500.gif) 8 9 7 7 repeat;
+	border-image: url(http://2.bp.blogspot.com/-dKd3Islrc2c/VZsjl2leIXI/AAAAAAAADOU/T9wcBxw8cpE/s1600/ILUSIOtumblr_ldjxv9x4rr1qzt4vjo1_r2_500.gif) 8 9 7 7 repeat;	
 }
 
 .b1 {
-	background-color: red; 
+	background-color: #2E2E2E; 
 	}
 
 .b2 {
-	background-color: blue;
+	background-color: #424242;
 }
 
 .b3 {
-	background-color: green;
+	background-color: #585858;
 }
 
 .clearfix:before, .clearfix:after{
@@ -29,4 +35,7 @@ div div{
 
 .clearfix:after {
 	clear: both;
+}
+* {
+	background-color: black; 
 }
