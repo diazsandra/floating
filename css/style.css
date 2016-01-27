@@ -1,0 +1,32 @@
+div div{
+	width: 25%;
+	height: 100px;
+	float: left;
+}
+
+.bbox {
+	width: 800px;
+	margin-top: 20px;
+	border: 1px solid black;
+}
+
+.b1 {
+	background-color: red; 
+	}
+
+.b2 {
+	background-color: blue;
+}
+
+.b3 {
+	background-color: green;
+}
+
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
